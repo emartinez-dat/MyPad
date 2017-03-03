@@ -53,7 +53,7 @@ function savePad(){
   var date = new Date();
   var stringDate = moment(date).format("MMMM DD YYYY h:mm a");
   var filename = "pad-" + stringDate +".txt";
-  var blob = new Blob([pad], {type: "text/plain;charset=utf-8"});
+  var blob = new Blob([pad], {type: "application/text;charset=utf-8"});
   swal({
         title: "File is ready",
         text: "Click Ok to download the file.",
