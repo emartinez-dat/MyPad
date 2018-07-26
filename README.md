@@ -1,3 +1,3 @@
 # MyPad
 
-Lightweight web notepad like app for your notes.
+Lightweight web notepad app for your notes.
